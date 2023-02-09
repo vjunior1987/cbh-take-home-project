@@ -44,7 +44,7 @@ assertive tests. I have also added return types to arguments and functions, so t
 While I generally prefer utilizing positive conditions, to simplify nested ifs I've opted to go the opposite route and validate all negative 
 conditions, since each condition depends on the previous one to be fulfilled. 
 
-"But Valderi, we asked you to refactor it, there's MORE lines of code now!" True. While the main function has been reduced to four lines, the overall
+"But Valderi, we asked you to refactor it, there's MORE lines of code now!" True. While the main function has been reduced to a half a dozen lines, the overall
 code length has increased. In my time as a Sr. Developer and Team lead, I've come to realize that "sleek" code does not always make for "clean and readable"
 code. It often times takes much longer to carefully read and understand what a sleek code is doing than one that's a bit more verbose, but you can understand
 what it is doing by just skimming it. */
