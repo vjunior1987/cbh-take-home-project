@@ -15,7 +15,8 @@ exports.deterministicPartitionKey = (event: any): string => {
   function getPartitionKeyFromInput(event: any): string {
     if(!event) {
       return TRIVIAL_PARTITION_KEY;
-    } 
+    }
+    
     if (!event.partitionKey) {
       const data = JSON.stringify(event);
       return CreateHashFromData(data);
